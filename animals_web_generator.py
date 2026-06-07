@@ -45,7 +45,7 @@ def serialize_animals(animals_data, animal_name):
     if len(animals_data) == 0:
         return (
             f'<h2>Sorry, the animal "{animal_name}" '
-            f'doesn’t exist in this world.</h2>'
+            f'does not exist in this world.</h2>'
         )
 
     output = []
